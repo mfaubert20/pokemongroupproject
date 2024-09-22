@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<style>
+    .wrapper {
+  width: 300px;
+  height: 420px;
+  background-color: #D1D3D4;
+  border-radius: 15px;
+  position: absolute;
+  left: 80px;
+  top: 50px;
+}
+.container {
+  width: 280px;
+  height: 400px;
+  background-color: #FFD42C;
+  top: 10px;
+  position: absolute;
+  left: 10px;
+  border-radius: 5px;
+}
+.img-container{
+  position: absolute;
+  top: 25px;
+  left: 5px;
+}
+.container-art{
+  width: 267px;
+  height: 150px;
+  top: 196px;
+  position: absolute;
+  left: 8px;
+  background-color: #FFD363;
+}
+.article{
+  top: 70px;
+  position: absolute;
+  left: 5px;
+  right: 5px;
+  color: #020000;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 9.5px;
+  text-align: justify;
+}
+.article2{
+top: 50px;
+position: absolute;
+left: 10px;
+right: 10px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: xx-small;
+text-align: center;
+}
+.electric2{
+  position: absolute;
+  left: 4px;
+  top: 60px;
+}
+header1{
+  width: 40px;
+  height: 15px;
+  position: absolute;
+  top: 0px;
+  left: -2px;
+  background-color: #B3B2B3;
+  border-radius: 10px;
+  font-size: xx-small;
+  font-family: cursive;
+  text-align: center;
+}
+header2{
+  position: absolute;
+  top: 3px;
+  left: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+header3{
+  position: absolute;
+  top: 13px;
+  right: 55px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 7px;
+}
+header4{
+  position: absolute;
+  top: px;
+  right: 27px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 20px;
+}
+.electric1{
+  position: absolute;
+  right: 2px;
+  top: 3px;
+}
+.line1{
+  width: 155px;
+  height: 2px;
+  position: absolute;
+  background-color: #B3B2B3;
+  top: 150px;
+}
+.weakness{
+  top: 147Px;
+  position: absolute;
+  left: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8px;
+}
+.fighting{
+  top: 8px;
+  left: 37px;
+  position: absolute;
+}
+.linev{
+  width: 1px;
+  height: 10px;
+  background-color: #B3B2B3;
+  position: absolute;
+  top: 155px;
+  left: 65px;
+}
+.resistance{
+  top: 155Px;
+  position: absolute;
+  left: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8px;
+}
+.line2{
+  width: 104px;
+  height: 2px;
+  position: absolute;
+  background-color: #B3B2B3;
+  top: 150px;
+  right: 0px;
+}
+.diagonal-line {
+  width: 2px;
+  height: 27px;
+  background-color: #B3B2B3;
+  transform: rotate(50deg);
+  position: absolute;
+  top: 146px;
+  right: 112px;
+}
+.line3{
+  width: 145px;
+  height: 2px;
+  position: absolute;
+  background-color: #B3B2B3;
+  top: 167px;
+}
+.retreat{
+  top: 155px;
+  position: absolute;
+  right: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8px;
+}
+.colorless{
+  top: 150px;
+  right: 50px;
+  position: absolute;
+}
+.line4{
+  width: 110px;
+  height: 2px;
+  position: absolute;
+  background-color: #B3B2B3;
+  top: 167px;
+  right: 0px;
+}
+.container-text{
+  width: 170px;
+  height: 50px;
+  position: absolute;
+  right: 0px;
+  top: -5px;
+}
+.text{
+  position: absolute;
+  top: 170px;
+  font-size: 7px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: end;
+  right: 0px;
+  color: #020000;
+}
+.text2{    
+  position: absolute;
+  top: 170px;
+  font-size: 6px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: start;
+  left: 0px;
+  color: #020000;
+}
+.circle{
+width: 6px;
+height: 6px;
+top: 19px;
+background-color: #020000;
+border-radius: 15px;
+left: 65px;
+position: absolute;
+}
+.x{
+position: absolute;
+top: 10px;
+left: 33px;
+font-family: cursive;
+font-size: 7px;
+}
+.k{
+width: 5px;
+height: 7px;
+position: absolute;
+background-color: white;
+border: 1px solid black;
+text-align:center;
+top: 15px;
+}
+.in{
+width: 18px;
+height: 7px;
+background-color: rgb(20, 20, 117);
+position: absolute;
+top: 15px;
+color: white;
+text-align: center;
+left: 10px;
+border: 1px solid grey;
+}
+</style>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <header1>BASIC</header1>
+      <header2>Pawmi</header2>
+      <header3>HP</header3>
+      <header4>40</header4>
+      <div class="electric1">
+         <img src="electric.png" width="20px">
+      </div>
+      <div class="img-container"> 
+        <img src="SV07_EN_56.png" width="270px">
+      </div>
+      <div class="container-art">
+        <div class="article2">
+          <h2>Targeted Spark</h2>
+        </div>
+        <div class="article">
+          <article>
+            <p>
+              This attack does 20 damage to 1 of your 
+              oppenebt's Pokémon.(Don't apply weakness 
+              and resistance for enched Pokémon.)
+            </p>   
+          </article>
+        </div>    
+        <div class="electric2">
+          <img src="electric.png" width="15">
+        </div>
+        <div class="line1"></div>
+        <div class="weakness"> 
+          <pre>Weakness   ×2</pre>
+          <div class="fighting">
+            <img src="fighting.png" width="10">
+          </div>
+        </div>
+        <div class="linev"></div>
+        <div class="resistance">resistance</div>
+        <div class="line2"></div>
+        <div class="diagonal-line"></div>
+        <div class="line3"></div>
+        <div class="retreat">retreat</div>
+        <div class="colorless">
+          <img src="Colorless-attack.png" width="10">
+        </div>
+        <div class="line4"></div>
+        <div class="container-text">
+          <div class="text">
+            <p>The pads of its paws are electricity-discharging 
+            organs. Pawmi fines electricity from its forepaws 
+            while standing unsteadily on its hind legs.
+          </p> 
+          </div>
+        </div>
+        <div class="text2">
+          <p>Illus. Natsumi Yoshida</p>
+          <div>
+            <div class="x">
+              <p>056/142</p>
+            </div>
+            <div class="k">K</div>
+            <div class="in">90in</div>
+            <div class="circle"></div>
+          </div>
+        </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
